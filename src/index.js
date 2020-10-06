@@ -1,29 +1,16 @@
 import _ from 'lodash';
-import './style.css';
-import Boss from './boss.jpg'
-import Data from './data.xml'
-import toml from './data.toml';
-import yaml from './data.yaml';
-import json from './data.json5';
+import printMe from './print.js';
+
 function component() {
     const element = document.createElement('div');
-  
+    const btn = document.createElement('button');
     // Lodash, currently included via a script, is required for this line to work
     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    element.classList.add('hello')
 
+    btn.innerHTML = 'Clck me and check console!';
+    btn.onclick = printMe
     // Add the image to our existing div.
-   const myIcon = new Image();
-   myIcon.src = Boss;
-
-   element.appendChild(myIcon);
-
-    console.log({
-      xml:Data,
-      toml: toml,
-      yaml: yaml,
-      json: json
-    })
+    element.appendChild(btn)
     return element;
   }
   
