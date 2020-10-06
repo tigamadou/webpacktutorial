@@ -7,7 +7,8 @@
   "author": "Amadou IBRAHIM <amadou140589@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "dependencies": {
     "lodash": "^4.17.20",
