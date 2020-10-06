@@ -1,4 +1,13 @@
+@font-face {
+    font-family: 'fontAwesome';
+    src:  url('./fonts/fa-brands-400.woff2') format('woff2'),
+          url('./fonts/fa-brands-400.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+  }
+
 .hello {
     color: red;
     background: url('./boss.jpg');
+    font-family: 'fontAwesome';
 }
