@@ -1,0 +1,17 @@
+{
+  "name": "webpacktutorial",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "repository": "git@github.com:tigamadou/webpacktutorial.git",
+  "author": "Amadou IBRAHIM <amadou140589@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
