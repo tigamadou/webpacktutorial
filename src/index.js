@@ -1,6 +1,10 @@
 import _ from 'lodash';
 import './style.css';
 import Boss from './boss.jpg'
+import Data from './data.xml'
+import toml from './data.toml';
+import yaml from './data.yaml';
+import json from './data.json5';
 function component() {
     const element = document.createElement('div');
   
@@ -14,7 +18,12 @@ function component() {
 
    element.appendChild(myIcon);
 
-
+    console.log({
+      xml:Data,
+      toml: toml,
+      yaml: yaml,
+      json: json
+    })
     return element;
   }
   

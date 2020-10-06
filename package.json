@@ -18,6 +18,11 @@
   },
   "devDependencies": {
     "css-loader": "^4.3.0",
-    "style-loader": "^1.3.0"
+    "csv-loader": "^3.0.3",
+    "json5": "^2.1.3",
+    "style-loader": "^1.3.0",
+    "toml": "^3.0.0",
+    "xml-loader": "^1.2.1",
+    "yamljs": "^0.3.0"
   }
 }
